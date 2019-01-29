@@ -1,0 +1,162 @@
+@font-face {
+    font-family: myFont;
+    src: url(museo300.woff2);
+}
+body {
+    font-family: myFont;
+    background-image: linear-gradient(to right, Purple , Orange);
+    font-size: .6rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 5%;
+}
+.topleft {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid aquamarine;
+    align-items: center;
+}
+img {
+    width: 75px;
+    height: 75px;
+}
+.button {
+    border: 1px solid darkviolet;
+    display: flex;
+    flex-direction: column;
+    width: 55px;
+    height: 30px;
+    justify-content: center;
+    background-image: linear-gradient(to left, purple , orange);
+    color: red;
+    border-radius: 10%;
+    margin: 2px;
+    padding: 2px;
+    text-align: center;
+}
+.button:hover {
+    opacity: .5;
+}
+.top {
+    display: flex;
+    border: 2px solid blue;
+    justify-content: space-around;
+}
+.middle {
+    display: flex;
+    border: 2px solid purple;
+    justify-content: space-around;
+}
+.end {
+    display: flex;
+    border: 2px solid green;
+    justify-content: space-between;
+}
+.midleft {
+
+}
+.midright {
+    border: 2px solid yellow;
+    align-self: flex-end;
+}
+.botleft {
+
+}
+.botright {
+    /*display: flex;*/
+    /*align-self: flex-end;*/
+}
+.toprow {
+    display: flex;
+}
+.midrow {
+    display: flex;
+}
+.botrow {
+    display: flex;
+}
+.action {
+    background-image: url("../images/swordkirito.jpg");
+}
+.adventure {
+    background-image: url("../images/natsu.jpg");
+}
+.drama {
+    background-image: url("../images/kouseikaori.jpg");
+}
+.fantasy {
+    background-image: url("../images/chesstet.jpg");
+}
+.horror {
+    background-image: url("../images/megumiSakura.jpg");
+}
+.romance {
+    background-image: url("../images/goldentime.jpg");
+}
+.scifi {
+    background-image: url("../images/spacecowboy.jpg");
+}
+.psycho {
+    background-image: url("../images/yunogasai.jpg");
+}
+
+@media screen and (min-width: 426px) {
+    body {
+        font-size: 1rem;
+    }
+    .button {
+        width: 85px;
+        height: 50px;
+    }
+    img {
+        width: 110px;
+        height: 110px;
+    }
+}
+
+@media screen and (min-width: 767px) {
+    body {
+        font-size: 1.5rem;
+    }
+    .button {
+        width: 155px;
+        height: 110px;
+    }
+    img {
+        width: 160px;
+        height: 160px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    body {
+        font-size: 1.7rem;
+    }
+    .button {
+        width: 200px;
+    }
+    img {
+        height: 190px;
+        width: 190px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    body {
+
+    }
+    .animebutton {
+        width: 250px;
+        height: 210px;
+        font-size: 2.7rem;
+    }
+    img {
+        height: 200px;
+        width: 200px;
+    }
+    .topleft {
+        font-size: 2rem;
+    }
+}
